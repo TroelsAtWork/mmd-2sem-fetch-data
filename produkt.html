@@ -4,8 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./produkt.js" defers></script>
+    <script src="./produkt.js" defer></script>
     <title>Produkt detaljer</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Fetch: dynamiske produkt detaljer</h1>
+    </header>
+    <main class="productContainer">
+      <figure>
+        <img
+          src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp"
+          alt="Produktbillede"
+          class="productImage"
+        />
+        <span class="saleLabel hidden">Udsalg!</span>
+      </figure>
+      <section class="productDetails">
+        <h2 class="productName">Produktnavn</h2>
+        <div>
+          <p class="articleType"><span class="bold">Type:</span> Tshirt</p>
+          <p class="productCategory">
+            <span class="bold">Kategori:</span> Elektronik
+          </p>
+          <p class="productPrice"><span class="bold">Pris:</span> 499 kr</p>
+        </div>
+        <button class="buyButton">Køb nu</button>
+      </section>
+    </main>
+  </body>
 </html>

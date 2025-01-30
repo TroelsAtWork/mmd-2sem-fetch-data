@@ -1,0 +1,87 @@
+/* Generel styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+span {
+  font-weight: bold;
+}
+
+/* Container til produktet */
+.productContainer {
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+  max-width: fit-content;
+  width: 100%;
+}
+/* Produktbillede contaioner */
+figure {
+  position: relative;
+  margin: 0;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+/* Produktnavn */
+.productName {
+  margin: 5px 0 10px 0;
+}
+/* Produktbillede */
+.productImage {
+  border-radius: 12px;
+  width: 200px;
+  margin-right: 20px;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Detaljeret produktbeskrivelse */
+.productDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Køb-knap */
+.buyButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto;
+}
+
+/* Udsalgslabel */
+.saleLabel {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+.buyButton:hover {
+  background-color: #0056b3;
+}

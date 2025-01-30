@@ -68,6 +68,7 @@ figure {
 /* Udsalgslabel */
 .saleLabel {
   position: absolute;
+  display: none;
   top: 15px;
   left: 15px;
   background: #ff4d4d;
@@ -75,13 +76,6 @@ figure {
   padding: 5px 10px;
   border-radius: 8px;
 }
-.hidden {
-  display: none;
-}
-.visible {
-  display: block;
-}
-
 .buyButton:hover {
   background-color: #0056b3;
 }

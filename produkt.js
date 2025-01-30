@@ -11,7 +11,7 @@ fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
           alt="Produktbillede"
           class="productImage"
         />
-        <span class="saleLabel hidden ${discount && "visible"}">Udsalg!</span>
+        <span class="saleLabel">Udsalg!</span>
       </figure>
       <section class="productDetails">
         <h2 class="productName">Produktnavn</h2>
